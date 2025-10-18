@@ -162,51 +162,56 @@ main {
     background-color: green;
 }
 /* footer section start code hare */
-
 footer {
-    background-color: rgba(80, 4, 103, 0.832);
-    padding-bottom: 50px;
+    background-color: #57005a;
 }
 .footer-section {
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
+    width: 900px;
     margin: auto;
-}
-.single-item {
-    width: 250px;
-}
-.single-item h2 {
-   font-size: 26px;
-   color: white;
-   margin: 30px 0;
-}
-.single-item p {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap:50px;
     color: white;
+}
+
+.footer-div1 h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+
+.footer-div1:first-child p {
+    margin-bottom: 50px;
+}
+.footer-div2 h2 {
+    margin-top: 42px;
+    margin-bottom: 20px;
+}
+.footer-div2 p a {
+    text-decoration: none;
+    color: white;
+}
+.footer-div2 p {
     margin-bottom: 10px;
 }
-.single-item a {
-    text-decoration: none;
-    background-color: rgb(1, 42, 71);
-    padding: 10px;
-    border-radius: 5px;
+.footer-div3 div{
+    padding: 30px 0;
+    margin-top: 20px;
 }
-.single-item a i {
-    margin: 30px 0;
+.footer-div3 div a {
     color: white;
+    text-decoration: none;
+    background-color: #032466;
+    padding: 10px;
+    border-radius: 7px;
+}
+.footer-div3 div a i {
     font-size: 20px;
 }
-.single-item a i:hover {
-    
-}
-.copy-div {
-    display: flex;
-    justify-content: space-between;
-    width: 1000px;
-    margin: auto;
+.footer-div3 p {
     margin-top: 10px;
 }
-.copy-div p {
-    color: white;
-    margin-right: 37px;
+.footer-div3 p:nth-child(3) {
+    margin-bottom: 60px;
 }
