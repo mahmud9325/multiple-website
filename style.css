@@ -9,6 +9,8 @@
     padding: 0 180px;
     background-color: rgb(4, 61, 132);
     border-bottom: 4px solid #401E63;
+    position: sticky;
+    top: 0;
 }
 .nav-div {
     color: white;
